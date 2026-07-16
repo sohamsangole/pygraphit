@@ -1,4 +1,4 @@
-from pygraph.storage.sqlite import SQLiteStorage
+from pygraphit.storage.sqlite import SQLiteStorage
 
 class Ranking:
     def __init__(self, storage: SQLiteStorage):

@@ -1,7 +1,7 @@
 import argparse
-from pygraph.storage.sqlite import SQLiteStorage
-from pygraph.retrieval.bfs import BFSGraphRetrieval
-from pygraph.retrieval.ranking import Ranking
+from pygraphit.storage.sqlite import SQLiteStorage
+from pygraphit.retrieval.bfs import BFSGraphRetrieval
+from pygraphit.retrieval.ranking import Ranking
 
 def main():
     parser = argparse.ArgumentParser(description="Query the PyGraph knowledge graph")

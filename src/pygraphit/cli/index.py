@@ -1,6 +1,7 @@
 import argparse
-from pygraph.parser.parser import ProjectParser
-from pygraph.storage.sqlite import SQLiteStorage
+import os
+from pygraphit.parser.parser import ProjectParser
+from pygraphit.storage.sqlite import SQLiteStorage
 
 def main():
     parser = argparse.ArgumentParser(description="Index a Python project into PyGraph")

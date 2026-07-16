@@ -4,10 +4,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="pygraph",
+    name="pygraphit",
     version="0.1.0",
     author="Soham Sangole",
-    author_email="[EMAIL_ADDRESS]",
+    author_email="sasangole2019@gmail.com",
     description="Turn any Python repository into a queryable knowledge graph using static analysis",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -22,9 +22,9 @@ setup(
     python_requires=">=3.7",
     entry_points={
         "console_scripts": [
-            "pygraph-index=pygraph.cli.index:main",
-            "pygraph-query=pygraph.cli.query:main",
-            "pygraph-visualize=pygraph.cli.visualize:main",
+            "pygraphit-index=pygraphit.cli.index:main",
+            "pygraphit-query=pygraphit.cli.query:main",
+            "pygraphit-visualize=pygraphit.cli.visualize:main",
         ],
     },
 )

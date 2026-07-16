@@ -1,4 +1,4 @@
-from pygraph.storage.sqlite import SQLiteStorage
+from pygraphit.storage.sqlite import SQLiteStorage
 from collections import deque
 
 class BFSGraphRetrieval:

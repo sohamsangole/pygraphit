@@ -1,0 +1,4 @@
+[console_scripts]
+pygraphit-index = pygraphit.cli.index:main
+pygraphit-query = pygraphit.cli.query:main
+pygraphit-visualize = pygraphit.cli.visualize:main
